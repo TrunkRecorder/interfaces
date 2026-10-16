@@ -1,0 +1,39 @@
+name: Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  # Weekly: catches a release deleted, or a tag moved, after its entry was merged.
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      # For the GitHub API and `gh attestation verify`. Nothing from a pull
+      # request is run: archives are only read (see tools/registry.py).
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Every entry, without the network
+        run: ./check --quick
+      # Downloads the archive of each entry a pull request adds or changes, and
+      # checks its checksum and build provenance, the tag's commit, and what's
+      # in it.
+      - name: Changed entries
+        if: github.event_name == 'pull_request'
+        run: ./check --changed-since origin/${{ github.base_ref }}
+      - name: Every entry
+        if: github.event_name != 'pull_request'
+        run: ./check

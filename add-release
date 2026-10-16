@@ -1,0 +1,3 @@
+#!/bin/sh
+# See tools/registry.py.
+exec python3 "$(dirname "$0")/tools/registry.py" add-release "$@"
