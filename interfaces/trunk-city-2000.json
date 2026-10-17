@@ -1,0 +1,34 @@
+{
+  "id": "trunk-city-2000",
+  "name": "Trunk City 2000",
+  "description": "A pixel-art city for each radio system, built from its talkgroups. Every call sends someone out: fire trucks, ambulances, buses, plows. Now and then, a flying saucer comes for a cow.",
+  "repository": "https://github.com/TrunkRecorder/trunk-city-2000",
+  "license": "MIT",
+  "tier": "community",
+  "version": "0.1.0",
+  "api": 1,
+  "access": "listen",
+  "tag": "v0.1.0",
+  "commit": "ee7479dde6eca6a260c4693bfaa9ff196adb17d3",
+  "asset": {
+    "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.1.0/trunk-city-2000-0.1.0.zip",
+    "sha256": "6e559ddf218726af67f42629ed9a0e5827dd97ded6c0618eeb884e0bbc792a5a"
+  },
+  "screenshots": [
+    {
+      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.1.0/trunk-city-2000-0.1.0-main.png",
+      "sha256": "da9e26929e01ca8bb89bf55a4f373a829dbfee4cc95f7d4cd36a77280d7bd609",
+      "caption": "A city at work: a fire downtown, police and road crews out, traffic on every street"
+    },
+    {
+      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.1.0/trunk-city-2000-0.1.0-quad.png",
+      "sha256": "da295238bec9ea71ea1fd3203fdfa6e3e14d6e1b918f0b5ded6965c3e1e009df",
+      "caption": "Four systems at once, each with its own headlines"
+    },
+    {
+      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.1.0/trunk-city-2000-0.1.0-planning.png",
+      "sha256": "72d26a358566cb403b8221981cbe7b95c388c4eddd214aab0fc2e36ff87236c2",
+      "caption": "City Planning: which systems and talkgroups count, and what each one is"
+    }
+  ]
+}
