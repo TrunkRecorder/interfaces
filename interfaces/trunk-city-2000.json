@@ -4,7 +4,7 @@
   "description": "A pixel-art city for each radio system, built from its talkgroups. Every call sends someone out: fire trucks, ambulances, buses, plows. Now and then, a flying saucer comes for a cow.",
   "repository": "https://github.com/TrunkRecorder/trunk-city-2000",
   "license": "MIT",
-  "tier": "community",
+  "tier": "official",
   "version": "0.1.0",
   "api": 1,
   "access": "listen",
