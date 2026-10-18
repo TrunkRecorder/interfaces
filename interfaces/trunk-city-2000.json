@@ -5,28 +5,28 @@
   "repository": "https://github.com/TrunkRecorder/trunk-city-2000",
   "license": "MIT",
   "tier": "official",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "api": 1,
   "access": "listen",
-  "tag": "v0.5.0",
-  "commit": "861acf00362ef16f9b4dbf60db6844bbadfce790",
+  "tag": "v0.5.1",
+  "commit": "3ac0712079c8ec99b1f0126b94578fcc2b096ef6",
   "asset": {
-    "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.5.0/trunk-city-2000-0.5.0.zip",
-    "sha256": "ef8c0a8e98a740c9be53532b9fbd4f178d5453bf3bc3da78b9f75e6882ba9203"
+    "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.5.1/trunk-city-2000-0.5.1.zip",
+    "sha256": "c7e55a7be698807e550ac34ac864d9168e60975008e537b61a9a481129a673f7"
   },
   "screenshots": [
     {
-      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.5.0/trunk-city-2000-0.5.0-main.png",
+      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.5.1/trunk-city-2000-0.5.1-main.png",
       "sha256": "a192378310c9ababab14ead4f0de7ab5f08f7b61ecc980f75bfd4e6a1f4d7f4e",
       "caption": "Radios on the air as vehicles and buildings, glowing with their names while they talk"
     },
     {
-      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.5.0/trunk-city-2000-0.5.0-quad.png",
+      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.5.1/trunk-city-2000-0.5.1-quad.png",
       "sha256": "76285d646e5599bbbebc63ad2edc435eae0042cee5e5bf1adb5f5a567a5d808f",
       "caption": "Four systems at once, each with its own headlines"
     },
     {
-      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.5.0/trunk-city-2000-0.5.0-planning.png",
+      "url": "https://github.com/TrunkRecorder/trunk-city-2000/releases/download/v0.5.1/trunk-city-2000-0.5.1-planning.png",
       "sha256": "bec1316b54ee22aa6f4f28380f205777120382ca0414ef8dda17a04714a19eed",
       "caption": "City Planning: which systems and talkgroups count, and what each one is"
     }
