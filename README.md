@@ -7,9 +7,13 @@ Each one has an entry here that pins one release of it: its version, the commit 
 from, and the SHA-256 of its archive. The recorder installs only an archive that matches, so
 what users get is what was reviewed.
 
-| Interface | | |
-|---|---|---|
-| *None listed yet* | | |
+| Interface | |
+|---|---|
+| [Trunk City 2000](https://github.com/TrunkRecorder/trunk-city-2000) | An isometric city for each radio system, built from its talkgroups. Every call sends someone out: fire trucks, ambulances, buses, plows. Now and then, a flying saucer comes for a cow. |
+| [Trunk-tris](https://github.com/TrunkRecorder/trunk-tris) | A relaxing game of Tetris for each radio system, played by the computer, its pieces made by the control channel: grants, affiliations and registrations. NES or Game Boy look, music, high scores. |
+| [Trunkamp](https://github.com/ge0metrix/TrunkAmp) | A Winamp-style player: live audio and recorded calls, with an equalizer. |
+
+The versions listed are in `index.json` (and each interface's file in `interfaces/`).
 
 To write an interface, start from the
 [interface template](https://github.com/TrunkRecorder/trunk-interface-template), and read
