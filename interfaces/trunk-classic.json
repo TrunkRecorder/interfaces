@@ -1,0 +1,34 @@
+{
+  "id": "trunk-classic",
+  "name": "Trunk Classic",
+  "description": "A classic text-mode trunk tracker view: each site's control channel, the channels in use, talkgroups, radios and their affiliations, calls, neighboring sites, patches and the control channel's messages as they come.",
+  "repository": "https://github.com/taclane/trunk-classic",
+  "license": "MIT",
+  "tier": "community",
+  "version": "0.2.2",
+  "api": 1,
+  "access": "listen",
+  "tag": "v0.2.2",
+  "commit": "233538d11450b39c66383e036069f762850d531d",
+  "asset": {
+    "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.2/trunk-classic-0.2.2.zip",
+    "sha256": "ab112c2e78a806dbdd283bfe3bc0d63cd3fd3bab480b10a3516850239cba33ae"
+  },
+  "screenshots": [
+    {
+      "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.2/trunk-classic-0.2.2-main.png",
+      "sha256": "088a149618098795a86a689184d60c3a870597b670c4374a91b942849367dbdb",
+      "caption": "Channels, the control channel's messages, and the talkgroups heard"
+    },
+    {
+      "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.2/trunk-classic-0.2.2-users.png",
+      "sha256": "1c52e12cf437c1512b5e2bb6bcb6c17694d36e676dec667827617212ffac6d5c",
+      "caption": "Radios: their affiliations, registrations and airtime, with the column picker open"
+    },
+    {
+      "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.2/trunk-classic-0.2.2-phone.png",
+      "sha256": "cff99ecf123b4af23a7ae84fcc894a42e93905500c7857f06aaeccd85aa19c76",
+      "caption": "At phone width"
+    }
+  ]
+}
