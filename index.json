@@ -42,28 +42,28 @@
       "repository": "https://github.com/taclane/trunk-classic",
       "license": "MIT",
       "tier": "community",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "api": 1,
       "access": "listen",
-      "tag": "v0.2.2",
-      "commit": "233538d11450b39c66383e036069f762850d531d",
+      "tag": "v0.2.3",
+      "commit": "d07d6659dd78dc0f395bee4c0d1c5c74dc6ef565",
       "asset": {
-        "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.2/trunk-classic-0.2.2.zip",
-        "sha256": "ab112c2e78a806dbdd283bfe3bc0d63cd3fd3bab480b10a3516850239cba33ae"
+        "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.3/trunk-classic-0.2.3.zip",
+        "sha256": "5fb1470d8949a2b132306d81645ecdcef0ca430aa9c48ca04e68d0e1c1b727d0"
       },
       "screenshots": [
         {
-          "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.2/trunk-classic-0.2.2-main.png",
+          "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.3/trunk-classic-0.2.3-main.png",
           "sha256": "088a149618098795a86a689184d60c3a870597b670c4374a91b942849367dbdb",
           "caption": "Channels, the control channel's messages, and the talkgroups heard"
         },
         {
-          "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.2/trunk-classic-0.2.2-users.png",
+          "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.3/trunk-classic-0.2.3-users.png",
           "sha256": "1c52e12cf437c1512b5e2bb6bcb6c17694d36e676dec667827617212ffac6d5c",
           "caption": "Radios: their affiliations, registrations and airtime, with the column picker open"
         },
         {
-          "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.2/trunk-classic-0.2.2-phone.png",
+          "url": "https://github.com/taclane/trunk-classic/releases/download/v0.2.3/trunk-classic-0.2.3-phone.png",
           "sha256": "cff99ecf123b4af23a7ae84fcc894a42e93905500c7857f06aaeccd85aa19c76",
           "caption": "At phone width"
         }
