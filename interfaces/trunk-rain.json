@@ -1,0 +1,29 @@
+{
+  "id": "trunk-rain",
+  "name": "Vocoder Rain",
+  "description": "Live digital voice as digital rain: each 20 ms vocoder frame falls as a streak of its own bits, tagged with its talkgroup and talker, over a faint layer of the control channel's messages. A novelty.",
+  "repository": "https://github.com/taclane/trunk-rain",
+  "license": "MIT",
+  "tier": "community",
+  "version": "0.2.0",
+  "api": 1,
+  "access": "listen",
+  "tag": "v0.2.0",
+  "commit": "69503a717d7b0c1dae1cdc6d1340dabe9030ff21",
+  "asset": {
+    "url": "https://github.com/taclane/trunk-rain/releases/download/v0.2.0/trunk-rain-0.2.0.zip",
+    "sha256": "3fd22bbb63f51fb934695264a43d85297443e9f2252fd9dd63e843f3e8434bda"
+  },
+  "screenshots": [
+    {
+      "url": "https://github.com/taclane/trunk-rain/releases/download/v0.2.0/trunk-rain-0.2.0-main.png",
+      "sha256": "2d96e4a9218b6e43d885ad4ee9bbfa7ecba0656bd274fe19ab0a42f758789ef1",
+      "caption": "Each streak is a talker's vocoder frames in hex, bright at the head and dimming behind; damaged frames fall in red, tags name the talkgroup and the radio, and the control channel is a faint layer behind"
+    },
+    {
+      "url": "https://github.com/taclane/trunk-rain/releases/download/v0.2.0/trunk-rain-0.2.0-kana.png",
+      "sha256": "592ea1e6e4239d07ab09639cc1a674854f9ad4850662aa12c6afa12606c0efb2",
+      "caption": "Mirrored kana, digits and symbols, coloured by talkgroup, with the control channel a little brighter"
+    }
+  ]
+}
